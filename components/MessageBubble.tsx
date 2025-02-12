@@ -16,6 +16,8 @@ export const MessageBubble = (params: IProps) => {
             //convert the Hash + to subtitles
             .replace(/##+ (.+)/g, '<strong>$1</strong>')
 
+
+
             // Convert markdown bold to <strong>
             .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
             // Convert numbered lists
